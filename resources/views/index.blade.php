@@ -111,6 +111,7 @@
     <!-- component -->
     <!-- This is an example component -->
     <div class='flex items-center flex-wrap  justify-center flex-col-2 mt-8 py-4 min-h-screen p-2 m-2 from-gray-700 via-gray-800 to-gray-900 bg-gradient-to-br'>
+        <!-- Card 1 -->
         <div class="relative w-full group max-w-md min-w-0 mx-auto mt-8 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
