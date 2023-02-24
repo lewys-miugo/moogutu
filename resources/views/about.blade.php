@@ -1,12 +1,18 @@
 @extends('layouts.layout')
 @section('content')
-<section>
+<section >
     <!-- Banner -->
     <div class="grid max-w-screen-xl px-4 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-2 lg:grid-cols-12">
+        <div class="bg-blue-900 float-left z-05 absolute rounded-b-lg ml-16"> 
+            <div class="m-4">
+                <p class="text-white"><a class="hover:underline underline-offset-4" href="{{'/'}}">Home</a> <span> /</span> <a class="underline underline-offset-4" href="{{'about'}}"> About Moses Ogutu</a></p>
+            </div>
+        </div>
+
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">About <br> Prof  Moses  Ogutu</h1>
             <p class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">Prof Moses Ogutu is a public servant currently serving as the Kenya’s Ambassador to the Kingdom of Belgium, Professor of Entrepreneurship, Technocrat, previously the Permanent Secretary of Kenya’s Ministry of Information and Communication, editor, advisor and a champion of Pan-Africanism.</p>
-            <a href="#" class="inline-flex  items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <a href="{{'profile'}}" class="inline-flex  items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 Read Full Profile
             </a> 
             <!-- <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -192,7 +198,7 @@
 
     <!-- ====== Cards Section Start -->
         
-    <section class="bg-gray-100 pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+    <section class="bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20">
 
         <div class="flex items-center flex-col pt-4 px-4">
             <img class="h-12 w-12 ml-4 mr-12 mb-4" src="/images/box_logo.png" alt="">
@@ -201,93 +207,87 @@
 
         <div class="container mx-auto">
             <div class="m-4 flex flex-wrap">
-            <div class="w-full px-4 md:w-1/2 xl:w-1/3">
-                <div class="mb-10 overflow-hidden rounded-lg bg-white">
-                <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
-                    alt="image"
-                    class="w-full"
-                />
-                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                    <h3>
-                    <a
-                        href="javascript:void(0)"
-                        class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                    >
-                        50+ Best creative website themes & templates
-                    </a>
-                    </h3>
-                    <p class="text-body-color mb-7 text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
-                    Lorem consectetur adipiscing elit.
-                    </p>
-                    <a
-                    href="javascript:void(0)"
-                    class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                    >
-                    View Details
-                    </a>
+                <!-- 1st card -->
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white shadow-xl">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-2 text-center sm:p-2 md:p-2 xl:p-4">
+                            <p class="text-body-color  text-base hover:leading-relaxed">
+                            Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                            Lorem consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <!-- 1.2 card -->
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white shadow-xl">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-2 text-center sm:p-2 md:p-2 xl:p-4">
+                            <p class="text-body-color  text-base hover:leading-relaxed">
+                            Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                            Lorem consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 xl:w-1/3">
-                <div class="mb-10 overflow-hidden rounded-lg bg-white">
-                <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-02.jpg"
-                    alt="image"
-                    class="w-full"
-                />
-                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                    <h3>
-                    <a
-                        href="javascript:void(0)"
-                        class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                    >
-                        The ultimate UX and UI guide to card design
-                    </a>
-                    </h3>
-                    <p class="text-body-color mb-7 text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
-                    Lorem consectetur adipiscing elit.
-                    </p>
-                    <a
-                    href="javascript:void(0)"
-                    class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                    >
-                    View Details
-                    </a>
+                <!-- 1.3 card -->
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white shadow-xl">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-2 text-center sm:p-2 md:p-2 xl:p-4">
+                            <p class="text-body-color  text-base hover:leading-relaxed">
+                            Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                            Lorem consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <!-- 1.4 card -->
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white shadow-xl">
+                        <img
+                            src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-02.jpg"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-2 text-center sm:p-2 md:p-2 xl:p-4">
+                            <p class="text-body-color  text-base hover:leading-relaxed">
+                            Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                            Lorem consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 xl:w-1/3">
-                <div class="mb-10 overflow-hidden rounded-lg bg-white">
-                <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
-                    alt="image"
-                    class="w-full"
-                />
-                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                    <h3>
-                    <a
-                        href="javascript:void(0)"
-                        class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                    >
-                        Creative Card Component designs graphic elements
-                    </a>
-                    </h3>
-                    <p class="text-body-color mb-7 text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
-                    Lorem consectetur adipiscing elit.
-                    </p>
-                    <a
-                    href="javascript:void(0)"
-                    class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                    >
-                    View Details
-                    </a>
+                <!-- 1.5 card -->
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="mb-10 overflow-hidden rounded-lg bg-white shadow-xl">
+                        <img
+                            src="https://imgs.search.brave.com/qq-asKPD1fMmtTogV3rgmubwpGxP1oen_xQLwc7F-Xc/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5a/TzRUbVVieE01LVYx/UjdiYkRwTUhRSGFF/SyZwaWQ9QXBp"
+                            alt="image"
+                            class="w-full"
+                        />
+                        <div class="p-2 text-center sm:p-2 md:p-2 xl:p-4">
+                            <p class="text-body-color  text-base hover:leading-relaxed">
+                            Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+                            Lorem consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
+                
             </div>
         </div>
     </section>
@@ -295,4 +295,5 @@
 
 
 </section>
+<hr style="border: 0; height: 2px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);">
 @endsection
