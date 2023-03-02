@@ -30,16 +30,15 @@
             </div>                
         </div>
     </section>
-
+    <!-- Body -->
     <section>
-        <div class="flex flex-col-12 ">
-            <aside class="relative top-0 left-0 w-64 h-full invisible lg:visible md:visible" aria-label="Sidenav">
+        <div class="m-8 lg:m-12 flex lg:flex-col-12 ">
+            <aside class="absolute lg:relative lg:flex  lg:flex-col-4 lg:sticky lg:top-0 lg:left-0 lg:w-64 lg:h-full invisible sm:invisible lg:visible " aria-label="Sidenav">
                 <div class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
                     <ul class="space-y-2">
                         <li>
                             <p class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                <svg aria-hidden="true" class="w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path><path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path></svg>
-                                <span class="ml-3">Jump to</span>
+                                <span class="ml-3 text-xl font-bold">Jump to</span>
                             </p>
                         </li>
                         
@@ -54,7 +53,11 @@
                         </li>
                         <li>
                             <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
-                                <svg aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                                <!-- <svg aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-gray-900">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                                </svg>
+
                                 <span class="ml-3">Publication</span>
                             </a>
                         </li>
@@ -67,9 +70,378 @@
                     </ul>
                 </div>
             </aside>
-            <div>
-                heloo
+            <div class="m-8 w-full">
+                <!-- PROFESSIONAL PROFILE SECTIONS -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-4">Professional Profile</h2>
+                    <p class="mb-4">I am a global technocrat and currently serving as Kenya’s Ambassador to the Kingdom of Belgium. Previously, I was the Professor of Entrepreneurship at the University of Nairobi School of Business. I am also an advocate of development strategies leveraging emergent technologies and social enterprise in Africa. I sit on boards of several high-profile organizations such as East Africa’s most profitable company – Safaricom – and a senior advisor three UN agencies and other non-governmental institutions.</p>
+                    <p class="mb-4">My skills, capabilities and experience are varied. They include over 8 years’ CEO-equivalent experience as Permanent Secretary in Ministry of Information and Communications for the Government of Kenya, high-level policy development and public administration, university-level teaching, academic research and graduate supervision, design and implementation of curriculum, academic leadership and administration, innovation management and public speaking to mention but a few.</p>
+                    <p class="mb-4">I have over 30 years of business, finance and technology expertise gained from my years in Government, Higher Education and the Private Sector. I am widely published in refereed academic journals and I am also a leading public intellectual offering my expertise as a columnist and commentator in high-quality, cross-cutting media platforms.</p>
+                    <p class="mb-4">Below is a sample of my notable achievements :</p>
+                </div>
+                <!-- Key Achievements -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-4">Key Achievements</h2>
+                    <ul class="list-disc ml-4">
+                        <li class="mb-2">Professor of Entrepreneurship</li>
+                        <li class="mb-2">Associate Professor at the School of Business, University of Nairobi, where he supervised over 7 PhDs with 5 others at an advanced stage.</li>
+                        <li class="mb-2">Senior Advisor to UNCDF’s Better than Cash Alliance</li>
+                        <li class="mb-2">Member of Global Learning Coun</li>
+                        <li class="mb-2">Senior Advisor to Research ICT Africa</li>
+                        <li class="mb-2">Member of World Economic Forum’s Blockchain Council</li>
+                    </ul>
+                    <hr style="border: 0; height: 2px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);" class="mt-4 mb-4">
+                </div>
+
+                <!-- SPECIAL ASSIGNMENTS AND LEADERSHIP -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-8 mt-8">Special Assignments and Leadership</h2>
+                    <!-- Special 1 -->
+                    <div class="flex mb-4 flex-cols-12">
+                        <div class="flex flex-cols-3 h-full items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                            </svg>
+                        </div>
+                        <div class="flex flex-cols-9 ml-2">
+                            <div >
+                                <div class="">
+                                    <h3 class=" font-semibold">Member, Board of Directors, Safaricom Limited</h3>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-light">2018 - to date</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Special 2 -->
+                    <div class="flex mb-4 flex-cols-12">
+                        <div class="flex flex-cols-3 h-full items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                            </svg>
+                        </div>
+                        <div class="flex  flex-cols-9 ml-2">
+                            <div >
+                                <div class="">
+                                    <h3 class=" font-semibold">Chairman, Kenya Government Taskforce on Distributed Ledgers & Artificial Intelligence</h3>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-light">2021 - to date</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Special 3 -->
+                    <div class="flex mb-4 flex-cols-12">
+                        <div class="flex flex-cols-3 h-full items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                            </svg>
+                        </div>
+                        <div class="flex flex-cols-9 ml-2">
+                            <div >
+                                <div class="">
+                                    <h3 class=" font-semibold">Head, University-Industry Relationship committee, University of Nairobi</h3>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-light">2018 - 2021</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Special 4 -->
+                    <div class="flex  mb-4 flex-cols-12">
+                        <div class="flex flex-cols-3 h-full items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                            </svg>
+                        </div>
+                        <div class="flex flex-cols-9 ml-2">
+                            <div >
+                                <div class="">
+                                    <h3 class=" font-semibold">Chairman, Global Alliance for Affordable Internet</h3>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-light">2020 - to date</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <hr style="border: 0; height: 2px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);" class="mt-4 mb-4">
+                </div>
+
+                <!-- Publications -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-8 mt-8">Publications</h2>
+                    <!-- BOOKS -->
+                    <div>
+                        <h3 class="text-xl mb-4">Books</h3>
+                        <div class="flex mb-4 flex-cols-12">
+                        <div class="flex flex-cols-3 h-full items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                <path d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z" />
+                            </svg>
+
+                        </div>
+                        <div class="flex flex-cols-9 ml-4">
+                            <div >
+                                <div class="">
+                                    <h3 class=" font-semibold">Moses O. and Weiss T. (2016): Digital Kenya</h3>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-base">An Entrepreneurial Revolution in the Making. Landmark Publication featuring Key Experts from Kenya’s startup scene. </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- BOOK CHAPTERS -->
+                    <div>
+                        <h3 class="text-xl font-medium mb-8 mt-8">Book Chapters</h3>
+                        
+                        <!-- Book chapter 1 -->
+
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Book Chapter 2 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Book Chapter 3 -->
+                        <div class="flex  mb-4  flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Book Chapter 4 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other book chapters and reports -->
+                    <div>
+                        <h3 class="text-xl mb-8 mt-8">Other Book Chapters & Reports</h3>
+                        <!-- Other book chapter 1 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M6 3a3 3 0 00-3 3v12a3 3 0 003 3h12a3 3 0 003-3V6a3 3 0 00-3-3H6zm1.5 1.5a.75.75 0 00-.75.75V16.5a.75.75 0 001.085.67L12 15.089l4.165 2.083a.75.75 0 001.085-.671V5.25a.75.75 0 00-.75-.75h-9z" clip-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Other book chapter 2 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M6 3a3 3 0 00-3 3v12a3 3 0 003 3h12a3 3 0 003-3V6a3 3 0 00-3-3H6zm1.5 1.5a.75.75 0 00-.75.75V16.5a.75.75 0 001.085.67L12 15.089l4.165 2.083a.75.75 0 001.085-.671V5.25a.75.75 0 00-.75-.75h-9z" clip-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Other Bokk Chapter 3 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M6 3a3 3 0 00-3 3v12a3 3 0 003 3h12a3 3 0 003-3V6a3 3 0 00-3-3H6zm1.5 1.5a.75.75 0 00-.75.75V16.5a.75.75 0 001.085.67L12 15.089l4.165 2.083a.75.75 0 001.085-.671V5.25a.75.75 0 00-.75-.75h-9z" clip-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Articles -->
+                    <div>
+                        <h3 class="text-xl mt-8 mb-8">Articles</h3>
+                        <!-- Article 1 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                                    <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Article 2 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                                    <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Article 3 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                                    <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Article 4 -->
+                        <div class="flex mb-4 flex-cols-12">
+                            <div class="flex flex-cols-3 h-full items-center mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                                    <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-cols-9 ml-4">
+                                <div >
+                                    <div class="">
+                                        <h3 class=" font-semibold">Ndemo, B. (2020). "The role of mobile technologies and inclusive innovation policies in SME development in Sub Saharan Africa".</h3>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-base">In A Research Agenda for Entrepreneurship Policy. Cheltenham, UK: Edward Elgar Publishing. doi: https://doi.org/10.4337/9781786430946.00018</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>   
+        </div>
+           
+    </section>
+    <section>
+        <hr style="border: 0; height: 2px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);" class="mt-4 mb-4">
     </section>
 @endsection
