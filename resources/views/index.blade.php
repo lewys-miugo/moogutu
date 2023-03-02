@@ -13,7 +13,7 @@
                 Get started
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a> -->
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg bg-blue-500 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 Blogs & Publication
             </a> 
         </div>
@@ -24,29 +24,29 @@
 
     <!-- navigation Tabs -->
 
-    <ul class="lg:px-16 text-sm font-medium text-center text-gray-900 divide-x divide-gray-200 rounded-lg shadow flex flex-row sm:flex  dark:divide-gray-700 dark:text-gray-400">
+    <ul class="lg:px-16 bg-white text-base font-medium text-center text-gray-900 divide-x divide-gray-200 rounded-lg shadow flex flex-row sm:flex  dark:divide-gray-700 dark:text-gray-400">
         <li class="w-full">
-            <a href="#" class="inline-block w-full p-4 text-gray-900 bg-white rounded-l-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white" aria-current="page">Profile</a>
+            <a href="#" class="inline-block  w-full p-4 text-white bg-blue-800 hover:text-black hover:bg-blue-500  rounded-l-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white" aria-current="page">Profile</a>
         </li>
         <li class="w-full">
-            <a href="#" class="inline-block w-full p-4 bg-white hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Academia</a>
+            <a href="#" class="inline-block w-full p-4 text-white bg-blue-800 hover:text-black hover:bg-blue-500  focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Academia</a>
         </li>
         <li class="w-full">
-            <a href="#" class="inline-block w-full p-4 bg-white hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Reflections</a>
+            <a href="#" class="inline-block w-full p-4 text-white bg-blue-800 hover:text-black hover:bg-blue-500  focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Reflections</a>
         </li>
         <li class="w-full">
-            <a href="#" class="inline-block w-full p-4 bg-white rounded-r-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Gallery</a>
+            <a href="#" class="inline-block w-full p-4 text-white bg-blue-800 hover:text-black hover:bg-blue-500 rounded-r-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Gallery</a>
         </li>
     </ul>
 
     <!-- Biography -->
     <div class="flex items-center flex-col pt-4 px-4">
-        <h2 class="text-4xl font-extrabold ">Biography</h2>
-        <p class="my-4 lg:mx-16 text-lg text-gray-500">Moses Ogutu is Professor of Entrepreneurship at the University of Nairobi’s Business School. His research centers on the link between ICTs and small and medium enterprises with emphasis on how ICTs influence economic development in Africa.</P>
+        <h2 class="text-sitangeh text-bluetange font-extrabold ">Biography</h2>
+        <p class="my-4 lg:mx-16  font-medium text-sitange text-bluetange">Moses Ogutu is Professor of Entrepreneurship at the University of Nairobi’s Business School. His research centers on the link between ICTs and small and medium enterprises with emphasis on how ICTs influence economic development in Africa.</P>
 
-        <P class="my-4 lg:mx-16 text-lg text-gray-500"> Prof. Ndemo Chaired the Kenya Distributed Ledgers and Artificial Intelligence Taskforce that developed the country’s a road map for digital transformation. He is an advisor and Board member to several organizations including Safaricom one of the leading telecommunication company in Africa, a member of the OECD Expert Panel for Blockchain, World Economic Forum Global Blockchain Council (part of the World Economic Forum’s Global Fourth Industrial Revolution Councils).</P>
+        <P class="my-4 lg:mx-16 text-sitange  font-medium text-bluetange"> Prof. Ndemo Chaired the Kenya Distributed Ledgers and Artificial Intelligence Taskforce that developed the country’s a road map for digital transformation. He is an advisor and Board member to several organizations including Safaricom one of the leading telecommunication company in Africa, a member of the OECD Expert Panel for Blockchain, World Economic Forum Global Blockchain Council (part of the World Economic Forum’s Global Fourth Industrial Revolution Councils).</P>
 
-        <P class="my-4 lg:mx-16 text-lg text-gray-500">Besides having been a Permanent Secretary of Kenya’s Ministry of Information and Communication where he was credited with facilitating many transformative ICT projects, a Senior advisor to UN’s Global Pulse (Big Data initiatives) and the UNCDF’s Better than Cash Alliance and UNICEF’s Innovation Council. He is an Open Data/Big Data evangelist and dedicated to simplification (visualization) of data for ordinary citizens to consume. He writes two columns every week for the Business Daily and Nation on-line.</p>
+        <P class="my-4 lg:mx-16 text-lg text-bluetange">Besides having been a Permanent Secretary of Kenya’s Ministry of Information and Communication where he was credited with facilitating many transformative ICT projects, a Senior advisor to UN’s Global Pulse (Big Data initiatives) and the UNCDF’s Better than Cash Alliance and UNICEF’s Innovation Council. He is an Open Data/Big Data evangelist and dedicated to simplification (visualization) of data for ordinary citizens to consume. He writes two columns every week for the Business Daily and Nation on-line.</p>
     </div>
 
     <!-- BLOG -->
@@ -57,43 +57,43 @@
                 <!-- max-w-sm -->
             <div class="lg:max-w-sm flex lg:col-4 bg-white p-2 border border-gray-200 rounded-lg shadow  mx-2 my-2">
                 <a href="#">
-                    <img class="rounded-t-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
+                    <img class="rounded-t-lg rounded-b-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                     </a>
                     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
-                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <!-- <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
                     </a>
                 </div>
             </div>
             <div class="lg:max-w-sm flex lg:col-4 bg-white p-2 border border-gray-200 rounded-lg shadow mx-2 my-2">
                 <a href="#">
-                    <img class="rounded-t-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
+                    <img class="rounded-t-lg rounded-b-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                     </a>
                     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
-                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <!-- <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
                     </a>
                 </div>
             </div>
             <div class="lg:max-w-sm flex lg:col-4 bg-white p-2 border border-gray-200 rounded-lg shadow mx-2 my-2">
                 <a href="#">
-                    <img class="rounded-t-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
+                    <img class="rounded-t-lg rounded-b-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                     </a>
                     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
-                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <!-- <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
                     </a>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
                         <div class="relative">
-                            <img src="/images/profileimg-removebg-preview.png" class="dark:shadow-xl border-blue-400 dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
+                            <img src="/images/no_tie_shot.jpg" class="dark:shadow-xl border-blue-400 dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
                         <div class="relative">
-                            <img src="/images/profileimg-removebg-preview.png" class="dark:shadow-xl border-blue-400 dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
+                            <img src="/images/tie_shot.jpg" class="dark:shadow-xl border-blue-400 dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
                         <div class="relative">
-                            <img src="/images/profileimg-removebg-preview.png" class="dark:shadow-xl border-blue-400 dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
+                            <img src="/images/ruto2.jpeg" class="dark:shadow-xl border-blue-400 dark:border-gray-800 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]" />
                         </div>
                     </div>
                 </div>
