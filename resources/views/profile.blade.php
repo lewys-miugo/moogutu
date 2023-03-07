@@ -1,4 +1,6 @@
 @extends('layouts.layout')
+@section('title') {{'Profile'}}@endsection
+
 @section('content')
     <!-- Banner -->
     <section>
