@@ -1,4 +1,6 @@
 @extends('layouts.layout')
+@section('title') {{'Blog'}}@endsection
+
 @section('content')
 
     <section>
