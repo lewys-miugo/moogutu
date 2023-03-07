@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+@section('title') {{'About'}}@endsection
 @section('content')
 <section >
     <!-- Banner -->
