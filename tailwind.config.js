@@ -9,12 +9,16 @@ module.exports = {
     theme: {
         colors: {
             bluetange: "#00063D",
+            bloglink:"#EF646B",
         },
         fontSize: {
             sitange: ["20px", "30px"],
             sitangeh: ["52px", "52px"],
             xsitangeh: ["68px","68px",{
               fontWeight:'900'
+            }],
+            blog:["16px","24px",{
+                // fontWeight:'700'
             }],
             sm: ["14px", "20px"],
             base: ["16px", "24px"],
@@ -23,7 +27,7 @@ module.exports = {
             xxl: ["30px","40px"]
         },
         fontFamily: {
-            sanx: ["Merriweather\\ Sans", "sans-serif"],
+            sanx: ["sans-serif"],
         },
         backgroundImage: {
             "pattern-1": "url('../public/images/background_pattern1.png')",
