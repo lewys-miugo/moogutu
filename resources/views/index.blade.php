@@ -1,4 +1,6 @@
 @extends('layouts.layout')
+@section('title') {{'Home'}}@endsection
+
 @section('content')
 <section class="bg-pattern1 dark:bg-gray-900">
     <!-- Banner -->
