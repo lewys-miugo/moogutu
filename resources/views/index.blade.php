@@ -93,51 +93,54 @@
             <h2 class="pb-4 text-sitangeh text-bluetange pl-14 font-extrabold ">Blog</h2>
         </div>
 
-        <div class="flex items-center flex-col pt-4 px-4">
-            <div class="flex flex-wrap sm:items-center lg:flex-col-12 ">
-                    <!-- max-w-sm -->
-                <div class="lg:max-w-sm flex lg:col-4 bg-white p-2 border border-gray-200 rounded-lg shadow  mx-2 my-2">
-                    <a href="#">
-                        <img class="rounded-t-lg rounded-b-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
+        <div class="lg:mx-32">
+            <div class="lg:m-8 flex flex-row flex-wrap">            
+                <div class="my-4 p-4 w-1/3 max-h-80">
+                    <!-- blog 1 -->
+                    <a href="" class="flex items-center flex-col ">
+                        <div class="">
+                            <img src="/images/ruto.jpeg" alt="" class="rounded-lg max-h-60">
+                        </div>
+                        <div>
+                            <h2 class="px-2 text-bluetange text-blog font-semibold" >Chandarana Foodplus Marketing Goof: a Lesson from Condoleezza Rice on Political Risk Through Social Activism</h2>
+                            <p class="text-sm font-semibold pl-2 text-left text-bloglink underline underline-offset-2">Read More</p>
+
+                        </div>
                     </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <!-- <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
-                        </a>
-                    </div>
                 </div>
-                <div class="lg:max-w-sm flex lg:col-4 bg-white p-2 border border-gray-200 rounded-lg shadow mx-2 my-2">
-                    <a href="#">
-                        <img class="rounded-t-lg rounded-b-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
+
+                <!-- Blog 2 -->
+                <div class="my-4 p-4 w-1/3 max-h-80">
+                    <!-- blog 1 -->
+                    <a href="" class="flex items-center flex-col ">
+                        <div class="">
+                            <img src="/images/ruto.jpeg" alt="" class="rounded-lg max-h-60">
+                        </div>
+                        <div>
+                            <h2 class="px-2 text-bluetange text-blog font-semibold" >Chandarana Foodplus Marketing Goof: a Lesson from Condoleezza Rice on Political Risk Through Social Activism</h2>
+                            <p class="text-sm font-semibold pl-2 text-left text-bloglink underline underline-offset-2">Read More</p>
+
+                        </div>
                     </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <!-- <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
-                        </a>
-                    </div>
                 </div>
-                <div class="lg:max-w-sm flex lg:col-4 bg-white p-2 border border-gray-200 rounded-lg shadow mx-2 my-2">
-                    <a href="#">
-                        <img class="rounded-t-lg rounded-b-lg" src="{{url('/images/image-1.jpg')}}" alt="" />
+
+                <!-- Blog 3 -->
+                <div class="my-4 p-4 w-1/3 max-h-80">
+                    <!-- blog 1 -->
+                    <a href="" class="flex items-center flex-col ">
+                        <div class="">
+                            <img src="/images/ruto.jpeg" alt="" class="rounded-lg max-h-60">
+                        </div>
+                        <div>
+                            <h2 class="px-2 text-bluetange text-blog font-semibold" >Chandarana Foodplus Marketing Goof: a Lesson from Condoleezza Rice on Political Risk Through Social Activism</h2>
+                            <p class="text-sm font-semibold pl-2 text-left text-bloglink underline underline-offset-2">Read More</p>
+
+                        </div>
                     </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <!-- <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> -->
-                        </a>
-                    </div>
                 </div>
+            </div>
+            <div class="text-right  ml-96">
+                <a href="{{'blog'}}" class="bg-orangelink p-2 rounded-lg font-xl font-semibold">View All Articles</a>
             </div>
         </div>
     </div>
@@ -156,9 +159,9 @@
 
     <!-- component -->
     <!-- This is an example component -->
-    <div class='flex items-center flex-wrap  justify-center flex-col-2 mt-8 py-4 min-h-screen p-2 m-2 from-gray-700 via-gray-800 to-gray-900 bg-gradient-to-br'>
+    <div class='flex items-center flex-wrap  justify-center flex-col-2 mt-8 py-4 min-h-screen p-2 m-2 lg:mx-32 from-gray-700 via-gray-800 to-gray-900 bg-gradient-to-br'>
         <!-- Card 1 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-8 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg w-lg min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -168,38 +171,23 @@
                     </div>
                 </div>
                 <div class="mt-2 mt-20 pt-2 text-center">
-                    <h3 class="mb-1 text-2xl font-bold leading-normal text-gray-700 dark:text-gray-300">Profile</h3>
+                    <h3 class="mb-1 font-bold leading-normal text-xxl text-bluetange dark:text-gray-300">Profile</h3>
                     <div class="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
-                        </svg> -->
-                        <!-- /typography/_h3.antlers.html -->
-                        <div class="text-sm font-normal tracking-tight text-gray-600 font-mono ">
+                        
+                        <div class="text-base font-normal tracking-tight text-gray-600 font-mono ">
                             <p>
                                 Prof. Ndemo has over 20 years of business, finance and technology expertise gained…
                             </p>
                         </div>
-                        <!-- End: /typography/_h3.antlers.html -->
-                    </div>
-                    <div class="w-full text-center">
-                        <div class="flex justify-center pt-8 pb-0 lg:pt-4">
-                            
-                        </div>
                     </div>
                 </div>
-                <!-- <div class="pt-6 mx-6 mt-6 text-center border-t border-gray-200 dark:border-gray-700/50">
-                    <div class="flex flex-wrap justify-center">
-                        <div class="w-full px-6">
-                            <p class="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin turpis orci, maximus sed purus a, cursus scelerisque purus. Morbi molestie, odio at sagittis rhoncus, felis massa iaculis mi, quis molestie erat ipsum vel risus.
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
+                <div class="w-full text-center">
+                   <a href="#" class="underline text-redlink font-semibold text-sm hover:text-orangelink">View More</a>                        
+                </div>
             </div>   
         </div>
         <!-- Card2 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -209,25 +197,24 @@
                     </div>
                 </div>
                 <div class="m-2 mt-20 pt-2 text-center">
-                    <h3 class="mb-1 text-2xl font-bold leading-normal text-gray-700 dark:text-gray-300">Key experience</h3>
+                    <h3 class="mb-1 font-bold leading-normal text-xxl text-bluetange dark:text-gray-300">Key Experience</h3>
                     <div class="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
 
-                        <div class="text-sm font-normal tracking-tight text-gray-600 font-mono ">
+                        <div class="text-base font-normal tracking-tight text-gray-600 font-mono ">
                             <p>
                                 Prof. Ndemo has over 20 years of business, finance and technology expertise gained…
                             </p>
                         </div>
                     </div>
-                    <div class="w-full text-center">
-                        <div class="flex justify-center pt-8 pb-0 lg:pt-4">
-                            
-                        </div>
-                    </div>
+                    
+                </div>
+                <div class="w-full text-center">
+                   <a href="#" class="underline text-redlink font-semibold text-sm hover:text-orangelink">View More</a>                        
                 </div>
             </div>   
         </div>
         <!-- Card 3 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -237,13 +224,9 @@
                     </div>
                 </div>
                 <div class="mt-2 mt-20 pt-2 text-center">
-                    <h3 class="mb-1 text-2xl font-bold leading-normal text-gray-700 dark:text-gray-300">Membership & honors</h3>
+                    <h3 class="mb-1 font-bold leading-normal text-xxl text-bluetange dark:text-gray-300">Membership & Honors</h3>
                     <div class="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
-                        </svg> -->
-                        <!-- /typography/_h3.antlers.html -->
-                        <div class="text-sm font-normal tracking-tight text-gray-600 font-mono ">
+                        <div class="text-base font-normal tracking-tight text-gray-600 font-mono ">
                             <p>
                                 Prof. Ndemo has over 20 years of business, finance and technology expertise gained…
                             </p>
@@ -256,19 +239,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="pt-6 mx-6 mt-6 text-center border-t border-gray-200 dark:border-gray-700/50">
-                    <div class="flex flex-wrap justify-center">
-                        <div class="w-full px-6">
-                            <p class="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin turpis orci, maximus sed purus a, cursus scelerisque purus. Morbi molestie, odio at sagittis rhoncus, felis massa iaculis mi, quis molestie erat ipsum vel risus.
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
+                <div class="w-full text-center">
+                   <a href="#" class="underline text-redlink font-semibold text-sm hover:text-orangelink">View More</a>                        
+                </div>
             </div>   
         </div>
         <!-- card 4 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -278,18 +255,13 @@
                     </div>
                 </div>
                 <div class="mt-2 mt-20 pt-2 text-center">
-                    <h3 class="mb-1 text-2xl font-bold leading-normal text-gray-700 dark:text-gray-300">Talks & Conferences</h3>
+                    <h3 class="mb-1 font-bold leading-normal text-xxl text-bluetange dark:text-gray-300">Talks & Conferences</h3>
                     <div class="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
-                        </svg> -->
-                        <!-- /typography/_h3.antlers.html -->
-                        <div class="text-sm font-normal tracking-tight text-gray-600 font-mono ">
+                        <div class="text-base font-normal tracking-tight text-gray-600 font-mono ">
                             <p>
                                 Prof. Ndemo has over 20 years of business, finance and technology expertise gained…
                             </p>
                         </div>
-                        <!-- End: /typography/_h3.antlers.html -->
                     </div>
                     <div class="w-full text-center">
                         <div class="flex justify-center pt-8 pb-0 lg:pt-4">
@@ -297,15 +269,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="pt-6 mx-6 mt-6 text-center border-t border-gray-200 dark:border-gray-700/50">
-                    <div class="flex flex-wrap justify-center">
-                        <div class="w-full px-6">
-                            <p class="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin turpis orci, maximus sed purus a, cursus scelerisque purus. Morbi molestie, odio at sagittis rhoncus, felis massa iaculis mi, quis molestie erat ipsum vel risus.
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
+                <div class="w-full text-center">
+                   <a href="#" class="underline text-redlink font-semibold text-sm hover:text-orangelink">View More</a>                        
+                </div>
             </div>   
         </div>
     </div>
