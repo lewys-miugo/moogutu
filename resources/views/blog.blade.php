@@ -38,6 +38,22 @@
         <h2 class="text-xsitangeh font-extrabold text-bluetange">Blog Articles</h2>
         <div class="lg:m-8 flex flex-row flex-wrap">            
             <div class="my-4 p-4 w-1/3 max-h-80">
+                <!-- blog 1 -->
+                <a href="" class="flex items-center flex-col ">
+                    <div class="">
+                        <img src="/images/ruto.jpeg" alt="" class="rounded-lg max-h-60">
+                    </div>
+                    <div>
+                        <h2 class="px-2 text-bluetange text-blog font-semibold" >Chandarana Foodplus Marketing Goof: a Lesson from Condoleezza Rice on Political Risk Through Social Activism</h2>
+                        <p class="text-sm font-semibold pl-2 text-left text-bloglink underline underline-offset-2">Read More</p>
+
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="my-4 p-4 w-1/3 max-h-80">
+                <!-- blog 1 -->
                 <a href="" class="flex items-center flex-col ">
                     <div class="">
                         <img src="/images/ruto.jpeg" alt="" class="rounded-lg max-h-60">
