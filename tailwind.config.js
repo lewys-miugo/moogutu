@@ -11,6 +11,7 @@ module.exports = {
             bluetange: "#00063D",
             bloglink: "#EF646B",
             orangelink: "#ffa033",
+            redlink:"#fb3640"
         },
         fontSize: {
             sitange: ["20px", "30px"],
