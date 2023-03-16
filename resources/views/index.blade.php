@@ -136,9 +136,6 @@
         </div>
     </div>
     <!-- CARDS section -->
-
-    <!-- component -->
-    <!-- This is an example component -->
     <div class='flex items-center flex-wrap  justify-center flex-col-2 mt-8 py-4 min-h-screen p-2 m-2 lg:mx-32 from-gray-700 via-gray-800 to-gray-900 bg-gradient-to-br'>
         <!-- Card 1 -->
         <div class="relative w-full group max-w-lg w-lg min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
