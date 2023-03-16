@@ -14,7 +14,7 @@
         <!-- Banner -->
         <div class=" flex flex-col items-center m-8 ">
             <div class="w-1/3">
-                <img src="/images/tie_shot.jpg" class="rounded-full " alt="">                
+                <img src="/images/tie_shot.jpg" class="rounded-full border-bluetange border-8 " alt="">                
             </div>
             <div>
                 <div>
