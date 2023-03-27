@@ -5,26 +5,26 @@
 <section class="">
     <!-- Banner -->
     <div class="">
-        <div class="lg:absolute h-full m-4 p-4">
+        <div class="lg:absolute h-full w-full m-4 p-4">
             <!-- Banner -->
-            <div class="grid max-w-screen-xl ml-12 mr-14 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-2 lg:grid-cols-12">
-                <div class="mr-auto place-self-center lg:col-span-7">
+            <div class="grid max-w-screen-4xl md:ml-12 md:mr-14 pt-8 md:mx-auto lg:gap-8 xl:gap-0 lg:pt-2 lg:grid-cols-12">
+                <div class="md:mr-auto place-self-center lg:col-span-7">
                     <div class="">
                         <img src="/images/box_logo.png" class="h-12 w-12" alt="">
-                        <div class="ml-12">
+                        <div class="lg:ml-12 ">
                             <h1 class="max-w-2xl mb-4 text-bluetange text-xsitangeh font-extrabold tracking-tight leading-none ">Prof  Moses  Ogutu</h1>
                             <p class="max-w-2xl mb-6 text-bluetange font-semibold lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">I am a global technocrat and currently serving as Kenya’s Ambassador to Belgium. Previously, I was the Permanent Secretary of Kenya’s Ministry of Information and Communication.</p>
-                            <a href="{{'about'}}" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-semibold text-center text-bluetange border border-gray-300 rounded-lg bg-orangelink hover:bg-gray-100 focus:ring-4 focus:ring-blue-500">
+                            <a href="{{'about'}}" class="inline-flex items-center justify-center mt-2 px-5 py-3 mr-3 text-base font-semibold text-center text-bluetange border border-gray-300 rounded-lg bg-orangelink hover:bg-gray-100 focus:ring-4 focus:ring-blue-500">
                                 About Moses Ogutu
                             </a> 
-                            <a href="{{'blog'}}" class="inline-flex items-center justify-center px-5 py-3 text-base font-semibold text-center text-bluetange border border-gray-300 rounded-lg bg-orangelink hover:bg-gray-100 focus:ring-4 focus:ring-blue-500">
+                            <a href="{{'blog'}}" class="inline-flex items-center justify-center mt-2 px-5 py-3 text-base font-semibold text-center text-bluetange border border-gray-300 rounded-lg bg-orangelink hover:bg-gray-100 focus:ring-4 focus:ring-blue-500">
                                 Blogs & Publication
                             </a> 
                         </div>
                     </div>
                 </div>
                 <div class=" lg:col-span-5 lg:flex">
-                    <img src="{{url('/images/profileimg-removebg-preview.png')}}" alt="mockup">
+                    <img src="{{url('/images/profileimg-removebg-preview.png')}}" class="" alt="mockup">
                 </div>                
             </div>
 
@@ -47,25 +47,29 @@
             
         </div>
        
-        <img src="/images/background_pattern1.png" alt="" class=" w-full h-min invisible lg:visible">
+        <img src="/images/background_pattern1.png" alt="" class="h-2 lg:w-full lg:h-min invisible lg:visible">
 
     </div>
 
     <!-- Biography -->
-    <div class="lg:mx-12 lg:mt-14">
-        <div class="lg:mx-8">
-            <img src="/images/box_logo.png" class="lg:w-12 lg:h-12" alt="">
-            <h2 class="text-sitangeh text-bluetange mx-12 font-extrabold ">Biography</h2>
-        </div>
-        
-        <div class="flex items-center flex-col pt-4 px-4">
-            <p class="my-4 lg:mx-16 text-sitange text-bluetange">Moses Ogutu is Professor of Entrepreneurship at the University of Nairobi’s Business School. His research centers on the link between ICTs and small and medium enterprises with emphasis on how ICTs influence economic development in Africa.</P>
+    <div class="m-4 lg:ml-20">
+        <img src="/images/box_logo.png" class="h-14 w-14" alt="">
+        <div class="">
+            <h2 class="text-sitangeh text-bluetange font-extrabold ml-14 ">Biography</h2>
 
-            <P class="my-4 lg:mx-16 text-sitange text-bluetange"> Prof. Ndemo Chaired the Kenya Distributed Ledgers and Artificial Intelligence Taskforce that developed the country’s a road map for digital transformation. He is an advisor and Board member to several organizations including Safaricom one of the leading telecommunication company in Africa, a member of the OECD Expert Panel for Blockchain, World Economic Forum Global Blockchain Council (part of the World Economic Forum’s Global Fourth Industrial Revolution Councils).</P>
+            <div class="flex items-center flex-col pt-4 px-4">
+                <p class="my-4 lg:mx-16 text-sitange text-bluetange">Moses Ogutu is Professor of Entrepreneurship at the University of Nairobi’s Business School. His research centers on the link between ICTs and small and medium enterprises with emphasis on how ICTs influence economic development in Africa.</p>
+                
+                <p class="my-4 lg:mx-16 text-sitange text-bluetange"> Prof. Ndemo Chaired the Kenya Distributed Ledgers and Artificial Intelligence Taskforce that developed the country’s a road map for digital transformation. He is an advisor and Board member to several organizations including Safaricom one of the leading telecommunication company in Africa, a member of the OECD Expert Panel for Blockchain, World Economic Forum Global Blockchain Council (part of the World Economic Forum’s Global Fourth Industrial Revolution Councils).</p>
 
-            <P class="my-4 lg:mx-16 text-lg text-bluetange">Besides having been a Permanent Secretary of Kenya’s Ministry of Information and Communication where he was credited with facilitating many transformative ICT projects, a Senior advisor to UN’s Global Pulse (Big Data initiatives) and the UNCDF’s Better than Cash Alliance and UNICEF’s Innovation Council. He is an Open Data/Big Data evangelist and dedicated to simplification (visualization) of data for ordinary citizens to consume. He writes two columns every week for the Business Daily and Nation on-line.</p>
+                <p class="my-4 lg:mx-16 text-lg text-bluetange">Besides having been a Permanent Secretary of Kenya’s Ministry of Information and Communication where he was credited with facilitating many transformative ICT projects, a Senior advisor to UN’s Global Pulse (Big Data initiatives) and the UNCDF’s Better than Cash Alliance and UNICEF’s Innovation Council. He is an Open Data/Big Data evangelist and dedicated to simplification (visualization) of data for ordinary citizens to consume. He writes two columns every week for the Business Daily and Nation on-line.</p>
+
+                
+            </div>
         </div>
     </div>
+    <!--  -->
+
     <!-- BLOG -->
     <div>
         <div class="m-4 lg:ml-20">
@@ -73,9 +77,10 @@
             <h2 class="pb-4 text-sitangeh text-bluetange pl-14 font-extrabold ">Blog</h2>
         </div>
 
-        <div class="lg:mx-32">
-            <div class="lg:m-8 flex flex-row flex-wrap">            
-                <div class="my-4 p-4 w-1/3 max-h-80">
+        <div class="lg:mx-32 ">
+            <div class="lg:m-8 flex flex-col items-center md:flex-row flex-wrap">  
+                <!-- BLOG 1 -->
+                <div class="my-4 p-4 w-2/3 md:w-1/3 xl:w-1/4 max-h-80">
                     <!-- blog 1 -->
                     <a href="" class="flex items-center flex-col ">
                         <div class="">
@@ -90,7 +95,7 @@
                 </div>
 
                 <!-- Blog 2 -->
-                <div class="my-4 p-4 w-1/3 max-h-80">
+                <div class="my-4 p-4 w-2/3 md:w-1/3 xl:w-1/4 max-h-80">
                     <!-- blog 1 -->
                     <a href="" class="flex items-center flex-col ">
                         <div class="">
@@ -105,7 +110,22 @@
                 </div>
 
                 <!-- Blog 3 -->
-                <div class="my-4 p-4 w-1/3 max-h-80">
+                <div class="my-4 p-4 w-2/3 md:w-1/3 xl:w-1/4 max-h-80">
+                    <!-- blog 1 -->
+                    <a href="" class="flex items-center flex-col ">
+                        <div class="">
+                            <img src="/images/ruto.jpeg" alt="" class="rounded-lg max-h-60">
+                        </div>
+                        <div>
+                            <h2 class="px-2 text-bluetange text-blog font-semibold" >Chandarana Foodplus Marketing Goof: a Lesson from Condoleezza Rice on Political Risk Through Social Activism</h2>
+                            <p class="text-sm font-semibold pl-2 text-left text-bloglink underline underline-offset-2">Read More</p>
+
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Blog 4 -->
+                <div class="my-4 p-4 w-2/3 md:w-1/3 xl:w-1/4 max-h-80">
                     <!-- blog 1 -->
                     <a href="" class="flex items-center flex-col ">
                         <div class="">
@@ -119,7 +139,7 @@
                     </a>
                 </div>
             </div>
-            <div class="text-right  ml-96">
+            <div class="text-right  md:ml-96">
                 <a href="{{'blog'}}" class="bg-orangelink p-2 rounded-lg font-xl font-semibold">View All Articles</a>
             </div>
         </div>
@@ -138,7 +158,7 @@
     <!-- CARDS section -->
     <div class='flex items-center flex-wrap  justify-center flex-col-2 mt-8 py-4 min-h-screen p-2 m-2 lg:mx-32 from-gray-700 via-gray-800 to-gray-900 bg-gradient-to-br'>
         <!-- Card 1 -->
-        <div class="relative w-full group max-w-lg w-lg min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -164,7 +184,7 @@
             </div>   
         </div>
         <!-- Card2 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -191,7 +211,7 @@
             </div>   
         </div>
         <!-- Card 3 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -222,7 +242,7 @@
             </div>   
         </div>
         <!-- card 4 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
