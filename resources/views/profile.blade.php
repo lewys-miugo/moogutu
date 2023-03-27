@@ -12,7 +12,7 @@
             </div>               
         </div>
         <!-- Banner -->
-        <div class=" flex flex-col items-center m-8 ">
+        <div class="mt-20 flex flex-col items-center m-8 ">
             <div class="w-1/3">
                 <img src="/images/tie_shot.jpg" class="rounded-full border-bluetange border-8 " alt="">                
             </div>
@@ -89,7 +89,8 @@
             <div class="m-8 w-full">
                 <!-- PROFESSIONAL PROFILE SECTIONS -->
                 <div>
-                    <h2 class=" text-bluetange text-sitangeh font-extrabold mb-4">Professional Profile</h2>
+                    <img src="/images/box_logo.png" class="h-12 w-12" alt="">
+                    <h2 class=" text-bluetange text-sitangeh font-extrabold ml-12 mb-4">Professional Profile</h2>
                     <p class="mb-4">I am a global technocrat and currently serving as Kenya’s Ambassador to the Kingdom of Belgium. Previously, I was the Professor of Entrepreneurship at the University of Nairobi School of Business. I am also an advocate of development strategies leveraging emergent technologies and social enterprise in Africa. I sit on boards of several high-profile organizations such as East Africa’s most profitable company – Safaricom – and a senior advisor three UN agencies and other non-governmental institutions.</p>
                     <p class="mb-4">My skills, capabilities and experience are varied. They include over 8 years’ CEO-equivalent experience as Permanent Secretary in Ministry of Information and Communications for the Government of Kenya, high-level policy development and public administration, university-level teaching, academic research and graduate supervision, design and implementation of curriculum, academic leadership and administration, innovation management and public speaking to mention but a few.</p>
                     <p class="mb-4">I have over 30 years of business, finance and technology expertise gained from my years in Government, Higher Education and the Private Sector. I am widely published in refereed academic journals and I am also a leading public intellectual offering my expertise as a columnist and commentator in high-quality, cross-cutting media platforms.</p>
@@ -97,7 +98,8 @@
                 </div>
                 <!-- Key Achievements -->
                 <div>
-                    <h2 class=" text-bluetange text-sitangeh font-extrabold mb-4">Key Achievements</h2>
+                    <img src="/images/box_logo.png" class="h-12 w-12" alt="">
+                    <h2 class=" text-bluetange text-sitangeh font-extrabold ml-12 mb-4">Key Achievements</h2>
                     <ul class="list-disc ml-4">
                         <li class="mb-2">Professor of Entrepreneurship</li>
                         <li class="mb-2">Associate Professor at the School of Business, University of Nairobi, where he supervised over 7 PhDs with 5 others at an advanced stage.</li>
@@ -111,7 +113,9 @@
 
                 <!-- SPECIAL ASSIGNMENTS AND LEADERSHIP -->
                 <div>
-                    <h2 class=" text-bluetange text-sitangeh font-extrabold mb-8 mt-8">Special Assignments and Leadership</h2>
+                    <img src="/images/box_logo.png" class="h-12 w-12" alt="">
+
+                    <h2 class=" text-bluetange text-sitangeh font-extrabold ml-12 mb-8 mt-8">Special Assignments and Leadership</h2>
                     <!-- Special 1 -->
                     <div class="flex mb-4 flex-cols-12">
                         <div class="flex flex-cols-3 h-full items-center mt-2">
@@ -194,7 +198,8 @@
 
                 <!-- Publications -->
                 <div>
-                    <h2 class=" text-bluetange text-sitangeh font-extrabold mb-8 mt-8">Publications</h2>
+                    <img src="/images/box_logo.png" class="h-12 mt-8 w-12" alt="">
+                    <h2 class=" text-bluetange text-sitangeh font-extrabold ml-12 mb-8 ">Publications</h2>
                     <!-- BOOKS -->
                     <div>
                         <h3 class=" text-bluetange text-xl font-extrabold mb-4">Books</h3>
@@ -370,7 +375,9 @@
                     
                     <!-- Articles -->
                     <div>
-                        <h3 class=" text-bluetange text-xxl font-extrabold mt-8 mb-8">Articles</h3>
+                        <img src="/images/box_logo.png" class="h-8 mt-8 w-8" alt="">
+
+                        <h3 class=" text-bluetange text-xxl font-extrabold ml-8  mb-8">Articles</h3>
                         <!-- Article 1 -->
                         <div class="flex mb-4 flex-cols-12">
                             <div class="flex flex-cols-3 h-full items-center mt-2">
