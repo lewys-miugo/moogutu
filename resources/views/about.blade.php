@@ -9,14 +9,14 @@
                 <p class="text-white"><a class="hover:underline underline-offset-4" href="{{'/'}}">Home</a> <span> /</span> <a class="underline underline-offset-4" href="{{'about'}}"> About Moses Ogutu</a></p>
             </div>
         </div>
-        <div class="lg:absolute h-full m-4 p-4">
+        <div class="lg:absolute h-full w-full m-4 p-4">
             <!-- Banner -->
             
-            <div class="grid max-w-screen-xl ml-12 mr-14 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-2 lg:grid-cols-12">
+            <div class="grid max-w-screen-4xl ml-12 mr-14 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:pt-2 lg:grid-cols-12">
                 
                 <div class="mr-auto place-self-center lg:col-span-7">
                     <div class="">
-                        <img src="/images/box_logo.png" class="h-12 w-12" alt="">
+                        <img src="/images/box_logo.png" class="mt-8 h-12 w-12" alt="">
                         <div class="ml-12">
                             <h1 class="max-w-2xl mb-4 text-bluetange text-xsitangeh font-extrabold tracking-tight leading-none ">Prof  Moses  Ogutu</h1>
                             <p class="max-w-2xl mb-6 text-bluetange font-semibold lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">I am a global technocrat and currently serving as Kenya’s Ambassador to Belgium. Previously, I was the Permanent Secretary of Kenya’s Ministry of Information and Communication.</p>
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" lg:col-span-5 lg:flex">
+                <div class="h-48 xl:w-full xl:h-full lg:col-span-5 lg:flex">
                     <img src="{{url('/images/profileimg-removebg-preview.png')}}" alt="mockup">
                 </div>                
             </div>
@@ -47,7 +47,7 @@
     </div>
     <div class='flex items-center flex-wrap  justify-center flex-col-2 mt-8 py-4 min-h-screen p-2 m-2 lg:mx-32 from-gray-700 via-gray-800 to-gray-900 bg-gradient-to-br'>
         <!-- Card 1 -->
-        <div class="relative w-full group max-w-lg w-lg min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -73,7 +73,7 @@
             </div>   
         </div>
         <!-- Card2 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -100,7 +100,7 @@
             </div>   
         </div>
         <!-- Card 3 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
@@ -131,7 +131,7 @@
             </div>   
         </div>
         <!-- card 4 -->
-        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
+        <div class="relative w-full group max-w-lg min-w-0 mx-auto mt-12 mb-12 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-sm rounded-xl">
             <div class="pb-6">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex justify-center w-full">
