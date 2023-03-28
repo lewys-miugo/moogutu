@@ -35,7 +35,7 @@
                     <a href="{{'profile'}}" class="inline-block  w-full p-4 text-white bg-bluetange text-lg hover:text-orangelink  rounded-l-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white" aria-current="page">Profile</a>
                 </li>
                 <li class="w-full">
-                    <a href="#" class="inline-block w-full p-4 text-white bg-bluetange text-lg hover:text-orangelink  focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Academia</a>
+                    <a href="{{url('academia')}}" class="inline-block w-full p-4 text-white bg-bluetange text-lg hover:text-orangelink  focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Academia</a>
                 </li>
                 <li class="w-full">
                     <a href="#" class="inline-block w-full p-4 text-white bg-bluetange text-lg hover:text-orangelink  focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700">Reflections</a>
