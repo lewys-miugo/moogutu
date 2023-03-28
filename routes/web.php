@@ -28,3 +28,7 @@ Route::get('profile',function () {
 Route::get('blog',function () {
     return view('blog');
 });
+
+Route::get('academia',function() {
+    return view('academia');
+});
