@@ -12,7 +12,7 @@
             </div>               
         </div>
         <!-- Banner -->
-        <div class="mt-20 flex flex-col items-center m-8 ">
+        <div id="top" class="mt-20 flex flex-col items-center m-8 ">
             <div class="w-1/3">
                 <img src="/images/tie_shot.jpg" class="rounded-full border-bluetange border-8 " alt="">                
             </div>
@@ -49,7 +49,19 @@
     </section>
     <!-- Body -->
     <section>
+        <!-- Back to top button -->
+
+                <div class="top-0 sticky mr-4 float-right rounded-full w-10 flex items-center justify-center h-10 border-bluetange border-2 ">
+                    <div class=" items-center justify-center text-center">
+                        <a href="#top" class="content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
         <div class="m-8 lg:m-12 flex lg:flex-col-12 ">
+            
             <aside class="absolute lg:relative lg:flex  lg:flex-col-4 lg:sticky lg:top-0 lg:left-0 lg:w-64 lg:h-full invisible sm:invisible lg:visible " aria-label="Sidenav">
                 <div class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
                     <ul class="space-y-2">
@@ -95,6 +107,21 @@
                     <p class="mb-4">My skills, capabilities and experience are varied. They include over 8 years’ CEO-equivalent experience as Permanent Secretary in Ministry of Information and Communications for the Government of Kenya, high-level policy development and public administration, university-level teaching, academic research and graduate supervision, design and implementation of curriculum, academic leadership and administration, innovation management and public speaking to mention but a few.</p>
                     <p class="mb-4">I have over 30 years of business, finance and technology expertise gained from my years in Government, Higher Education and the Private Sector. I am widely published in refereed academic journals and I am also a leading public intellectual offering my expertise as a columnist and commentator in high-quality, cross-cutting media platforms.</p>
                     <p class="mb-4">Below is a sample of my notable achievements :</p>
+                    <hr style="border: 0; height: 2px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);" class="mt-4 mb-4">
+                </div>
+                <!-- Interests -->
+                <div>
+                    <img src="/images/box_logo.png" class="h-12 w-12" alt="">
+                    <h2 class=" text-bluetange text-sitangeh font-extrabold ml-12 mb-4">Interests</h2>
+                    <ul class="list-disc ml-4">
+                        <li class="mb-2">Professor of Entrepreneurship</li>
+                        <li class="mb-2">Associate Professor at the School of Business, University of Nairobi, where he supervised over 7 PhDs with 5 others at an advanced stage.</li>
+                        <li class="mb-2">Senior Advisor to UNCDF’s Better than Cash Alliance</li>
+                        <li class="mb-2">Member of Global Learning Coun</li>
+                        <li class="mb-2">Senior Advisor to Research ICT Africa</li>
+                        <li class="mb-2">Member of World Economic Forum’s Blockchain Council</li>
+                    </ul>
+                    <hr style="border: 0; height: 2px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);" class="mt-4 mb-4">
                 </div>
                 <!-- Key Achievements -->
                 <div>
