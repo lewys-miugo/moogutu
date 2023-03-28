@@ -32,3 +32,7 @@ Route::get('blog',function () {
 Route::get('academia',function() {
     return view('academia');
 });
+
+Route::get('interests',function() {
+    return view('interests');
+});
